@@ -1,0 +1,13 @@
+prefix=D:/NLP_Projects/ATS_GoogleGeminiPro/venv/Library
+exec_prefix=D:/NLP_Projects/ATS_GoogleGeminiPro/venv/Library
+libdir=D:/NLP_Projects/ATS_GoogleGeminiPro/venv/Library/lib
+sharedlibdir=D:/NLP_Projects/ATS_GoogleGeminiPro/venv/Library/lib
+includedir=D:/NLP_Projects/ATS_GoogleGeminiPro/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
